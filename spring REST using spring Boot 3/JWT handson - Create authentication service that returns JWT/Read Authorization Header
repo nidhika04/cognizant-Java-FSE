@@ -1,0 +1,6 @@
+Client request:
+
+Controller:
+
+String authHeader =
+        request.getHeader("Authorization");
