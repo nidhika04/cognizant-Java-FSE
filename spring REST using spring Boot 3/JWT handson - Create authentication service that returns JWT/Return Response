@@ -1,0 +1,13 @@
+Map<String, String> map =
+        new HashMap<>();
+
+map.put("token", token);
+
+return map;
+
+Response:
+
+{
+    "token":
+    "eyJhbGciOiJIUzI1NiJ9..."
+}
