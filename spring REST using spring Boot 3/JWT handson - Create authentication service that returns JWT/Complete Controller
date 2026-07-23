@@ -1,0 +1,38 @@
+@RestController
+public class AuthenticationController {
+
+    @RequestMapping("/authenticate")
+    public Map<String, String> authenticate(
+            HttpServletRequest request) {
+
+        String authHeader =
+                request.getHeader(
+                        "Authorization");
+
+        String base64 =
+                authHeader
+                .substring("Basic".length())
+                .trim();
+
+        byte[] decoded =
+                Base64.getDecoder()
+                .decode(base64);
+
+        String credentials =
+                new String(decoded);
+
+        String username =
+                credentials.split(":")[0];
+
+        String token =
+                JwtUtil.generateToken(
+                        username);
+
+        Map<String, String> response =
+                new HashMap<>();
+
+        response.put("token", token);
+
+        return response;
+    }
+}
