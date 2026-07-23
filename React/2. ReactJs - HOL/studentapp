@@ -1,0 +1,66 @@
+# StudentApp - React Components
+
+## Description
+
+This project demonstrates the basic concept of React Components. It includes three reusable components:
+
+- Home
+- About
+- Contact
+
+These components are rendered inside the main App component.
+
+## Technologies Used
+
+- React
+- JavaScript (ES6)
+- HTML
+- CSS
+- Node.js
+- npm
+
+## Project Structure
+
+```
+studentapp
+│
+├── src
+│   ├── Components
+│   │   ├── Home.js
+│   │   ├── About.js
+│   │   └── Contact.js
+│   │
+│   ├── App.js
+│   └── index.js
+```
+
+## Components
+
+- Home Component
+- About Component
+- Contact Component
+
+## Installation
+
+```bash
+git clone https://github.com/your-username/studentapp.git
+cd studentapp
+npm install
+npm start
+```
+
+## Output
+
+```
+Welcome to the Home Page of Student Management Portal
+Welcome to the About Page of Student Management Portal
+Welcome to the Contact Page of Student Management Portal
+```
+
+## Learning Outcomes
+
+- Creating React Components
+- Importing Components
+- Exporting Components
+- Rendering Multiple Components
+- Understanding Component-Based Architecture
