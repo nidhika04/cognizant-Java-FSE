@@ -1,0 +1,52 @@
+# React Cohort Tracker
+
+## Description
+
+This project demonstrates styling React components using CSS Modules and inline styles. It displays cohort details with different styles based on the cohort status.
+
+## Technologies Used
+
+- React
+- JavaScript (ES6)
+- CSS Modules
+- HTML
+- Node.js
+- npm
+
+## Features
+
+- CSS Modules
+- Inline Styling
+- Dynamic Styling
+- Styled React Components
+- Cohort Details Dashboard
+
+## Project Structure
+
+```
+cohorttracker
+│
+├── src
+│   ├── Components
+│   │   └── CohortDetails.js
+│   ├── CohortDetails.module.css
+│   ├── App.js
+│   └── index.js
+```
+
+## Installation
+
+```bash
+git clone https://github.com/your-username/cohorttracker.git
+cd cohorttracker
+npm install
+npm start
+```
+
+## Learning Outcomes
+
+- CSS Modules
+- Inline Styles
+- Dynamic Component Styling
+- React Component Design
+- className and style Properties
