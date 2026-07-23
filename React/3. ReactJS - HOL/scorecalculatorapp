@@ -1,0 +1,64 @@
+# React Score Calculator App
+
+## Description
+
+This project demonstrates React Function Components, Props, and CSS Styling. It calculates and displays a student's score based on the total marks and goal.
+
+## Technologies Used
+
+- React
+- JavaScript (ES6)
+- HTML
+- CSS
+- Node.js
+- npm
+
+## Features
+
+- Function Component
+- Props
+- CSS Styling
+- Score Calculation
+- Component Rendering
+
+## Project Structure
+
+```
+scorecalculatorapp
+│
+├── src
+│   ├── Components
+│   │   └── CalculateScore.js
+│   ├── Stylesheets
+│   │   └── mystyle.css
+│   ├── App.js
+│   └── index.js
+```
+
+## Installation
+
+```bash
+git clone https://github.com/your-username/scorecalculatorapp.git
+cd scorecalculatorapp
+npm install
+npm start
+```
+
+## Output
+
+```
+Student Details
+
+Name : Nivetha
+School : DNV Public School
+Total : 284 Marks
+Score : 56.80%
+```
+
+## Learning Outcomes
+
+- React Function Components
+- Passing Props
+- Component Styling using CSS
+- Rendering Components
+- Simple Score Calculation
