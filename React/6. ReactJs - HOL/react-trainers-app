@@ -1,0 +1,60 @@
+# React Trainers App
+
+## Description
+
+This project demonstrates React Router by implementing navigation between multiple pages and displaying trainer details using dynamic routes and URL parameters.
+
+## Technologies Used
+
+- React
+- React Router DOM
+- JavaScript (ES6)
+- HTML
+- CSS
+- Node.js
+- npm
+
+## Features
+
+- React Router
+- Navigation Menu
+- Dynamic Routing
+- URL Parameter Passing
+- Trainer List
+- Trainer Details Page
+
+## Project Structure
+
+```
+trainersapp
+│
+├── src
+│   ├── Components
+│   │   ├── Home.js
+│   │   ├── TrainersList.js
+│   │   └── TrainerDetails.js
+│   ├── trainer.js
+│   ├── TrainersMock.js
+│   ├── App.js
+│   └── index.js
+```
+
+## Installation
+
+```bash
+git clone https://github.com/your-username/trainersapp.git
+cd trainersapp
+npm install
+npm install react-router-dom
+npm start
+```
+
+## Learning Outcomes
+
+- React Router DOM
+- BrowserRouter
+- Routes and Route
+- Link Component
+- Dynamic Routing
+- URL Parameters using useParams()
+- Navigation between Components
