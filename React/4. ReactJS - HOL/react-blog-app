@@ -1,0 +1,55 @@
+# React Blog App
+
+## Description
+
+This project demonstrates React Class Components and Lifecycle Methods by fetching blog posts from a REST API and displaying them in the browser.
+
+## Technologies Used
+
+- React
+- JavaScript (ES6)
+- HTML
+- CSS
+- Node.js
+- npm
+
+## Features
+
+- Class Component
+- componentDidMount()
+- componentDidCatch()
+- REST API Integration
+- Display Blog Posts
+
+## Project Structure
+
+```
+blogapp
+│
+├── src
+│   ├── Posts.js
+│   ├── Post.js
+│   ├── App.js
+│   └── index.js
+```
+
+## API Used
+
+https://jsonplaceholder.typicode.com/posts
+
+## Installation
+
+```bash
+git clone https://github.com/your-username/blogapp.git
+cd blogapp
+npm install
+npm start
+```
+
+## Learning Outcomes
+
+- React Class Components
+- React Lifecycle Methods
+- Fetching Data from REST API
+- Error Handling with componentDidCatch()
+- Rendering Dynamic Data
