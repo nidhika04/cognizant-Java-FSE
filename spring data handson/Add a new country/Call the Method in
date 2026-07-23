@@ -1,0 +1,12 @@
+public static void main(String[] args)
+        throws CountryNotFoundException {
+
+    ApplicationContext context =
+            SpringApplication.run(
+                    OrmLearnApplication.class, args);
+
+    countryService =
+            context.getBean(CountryService.class);
+
+    testAddCountry();
+}
