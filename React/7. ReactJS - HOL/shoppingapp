@@ -1,0 +1,64 @@
+# React Shopping App
+
+## Description
+
+This project demonstrates the use of React Props by passing shopping cart data from the OnlineShopping component to the Cart component and displaying the items in a table.
+
+## Technologies Used
+
+- React
+- JavaScript (ES6)
+- HTML
+- CSS
+- Node.js
+- npm
+
+## Features
+
+- React Class Components
+- Props
+- Parent to Child Communication
+- Dynamic Table Rendering
+- Shopping Cart Display
+
+## Project Structure
+
+```
+shoppingapp
+│
+├── src
+│   ├── Components
+│   │   ├── OnlineShopping.js
+│   │   └── Cart.js
+│   ├── App.js
+│   └── index.js
+```
+
+## Installation
+
+```bash
+git clone https://github.com/your-username/shoppingapp.git
+cd shoppingapp
+npm install
+npm start
+```
+
+## Output
+
+Displays a shopping cart containing items such as:
+
+- TV
+- Fridge
+- Washing Machine
+- Mobile
+- Table
+
+Each item is displayed with its corresponding price in a table.
+
+## Learning Outcomes
+
+- React Props
+- Parent to Child Data Passing
+- Component Reusability
+- Rendering Lists using map()
+- Class Components
