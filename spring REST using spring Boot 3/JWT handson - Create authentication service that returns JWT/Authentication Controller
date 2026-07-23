@@ -1,0 +1,15 @@
+@RestController
+public class AuthenticationController {
+
+    @RequestMapping("/authenticate")
+    public Map<String, String> authenticate(
+            HttpServletRequest request) {
+
+        String token = "Generated JWT Token";
+
+        Map<String, String> map = new HashMap<>();
+        map.put("token", token);
+
+        return map;
+    }
+}
