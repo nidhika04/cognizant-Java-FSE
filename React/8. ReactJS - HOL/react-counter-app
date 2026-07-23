@@ -1,0 +1,58 @@
+# React Counter App
+
+## Description
+
+This project demonstrates the use of React State in a class component. It tracks the number of people entering and exiting a mall using Login and Exit buttons.
+
+## Technologies Used
+
+- React
+- JavaScript (ES6)
+- HTML
+- CSS
+- Node.js
+- npm
+
+## Features
+
+- React State
+- Class Component
+- Event Handling
+- Button Click Counter
+- Dynamic UI Updates
+
+## Project Structure
+
+```
+counterapp
+│
+├── src
+│   ├── Components
+│   │   └── CountPeople.js
+│   ├── App.js
+│   └── index.js
+```
+
+## Installation
+
+```bash
+git clone https://github.com/your-username/counterapp.git
+cd counterapp
+npm install
+npm start
+```
+
+## Output
+
+- **Login** button increments the **People Entered** count.
+- **Exit** button increments the **People Left** count.
+- The UI updates automatically using React State.
+
+## Learning Outcomes
+
+- React State
+- Class Components
+- Constructor
+- setState()
+- Event Handling
+- Dynamic Rendering
