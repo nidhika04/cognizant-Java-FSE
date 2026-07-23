@@ -1,0 +1,54 @@
+# My First React App
+
+## Description
+This is a simple React application created using Create React App. It displays a welcome message on the browser.
+
+## Technologies Used
+- React
+- JavaScript
+- HTML
+- CSS
+- Node.js
+- npm
+
+## Features
+- React application setup using Create React App
+- Displays "Welcome the first session of React"
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/myfirstreact.git
+```
+
+Go to the project folder:
+
+```bash
+cd myfirstreact
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the application:
+
+```bash
+npm start
+```
+
+Open your browser and visit:
+
+```
+http://localhost:3000
+```
+
+## Output
+
+```
+Welcome the first session of React
+```
