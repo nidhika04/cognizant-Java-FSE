@@ -1,0 +1,75 @@
+Step 1: Ensure master is clean
+git status
+
+Output:
+nothing to commit, working tree clean
+
+Step 2: Create a new branch
+git branch GitWork
+
+Switch to it:
+git checkout GitWork
+
+Step 3: Create hello.xml in GitWork
+echo "<message>Hello from GitWork</message>" > hello.xml
+
+Check status:
+git status
+
+Step 4: Commit changes in GitWork
+git add hello.xml
+git commit -m "Added hello.xml in GitWork"
+  
+Step 5: Switch to master
+git checkout master
+
+Step 6: Create the same file with different content
+echo "<message>Hello from Master</message>" > hello.xml
+
+Commit it:
+git add hello.xml
+git commit -m "Added hello.xml in master"
+  
+Step 7: View the log
+git log --oneline --graph --decorate --all
+  
+Step 8: Compare master and branch
+git diff master GitWork
+
+Step 9: Merge GitWork into master
+git merge GitWork
+
+Expected output:
+CONFLICT (add/add): Merge conflict in hello.xml
+Automatic merge failed.
+
+Step 10: Observe conflict markers
+cat hello.xml
+
+Expected output:
+<<<<<<< HEAD
+<message>Hello from Master</message>
+=======
+<message>Hello from GitWork</message>
+>>>>>>> GitWork
+  
+Step 11: Resolve the conflict
+echo "<message>Hello from Master and GitWork</message>" > hello.xml
+
+Step 12: Commit the resolved file
+git add hello.xml
+git commit -m "Resolved merge conflict"
+  
+Step 13: Add backup files to .gitignore 
+echo "*.orig" >> .gitignore
+git add .gitignore
+git commit -m "Updated gitignore"
+  
+Step 14: List all branches
+git branch
+
+Step 15: Delete merged branch
+git branch -d GitWork
+
+Step 16: View final log
+git log --oneline --graph --decorate
