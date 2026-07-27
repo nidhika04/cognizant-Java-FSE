@@ -1,0 +1,28 @@
+Step 1: Verify master is clean
+git status
+
+Output:
+nothing to commit, working tree clean
+
+Step 2: List all branches
+git branch
+
+Expected:
+* master
+  
+Step 3: Check if remote repository is connected
+git remote -v
+
+git remote add origin https:
+
+Step 4: Pull the latest changes from remote
+git pull origin master
+
+git pull origin main
+
+Step 5: Push local changes to remote
+git push origin master
+
+
+
+git push origin main
