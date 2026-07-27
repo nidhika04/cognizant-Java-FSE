@@ -1,0 +1,61 @@
+Step 1: Verify the current working directory
+pwd
+
+This command displays the current directory path and confirms that you are inside the GitDemo folder.
+
+Step 2: Create a .log file
+echo "Error message" > error.log
+
+This command creates a file named error.log and writes the text "Error message" into it.
+
+Step 3: Create a log folder
+mkdir log
+
+This command creates a directory named log.
+
+Step 4: Create a file inside the log folder
+echo "Test" > log/test.txt
+
+This command creates a file named test.txt inside the log folder.
+
+Step 5: Create a .gitignore file
+echo "" > .gitignore
+
+This command creates an empty .gitignore file.
+
+Step 6: Add a rule to ignore all .log files
+echo "*.log" >> .gitignore
+
+This command adds the rule *.log to the .gitignore file, which tells Git to ignore all files with the .log extension.
+
+Step 7: Add a rule to ignore the log folder
+echo "log/" >> .gitignore
+
+This command adds the rule log/ to the .gitignore file, which tells Git to ignore the entire log directory.
+
+Step 8: Verify the contents of .gitignore
+cat .gitignore
+
+This command displays the contents of the .gitignore file.
+
+Expected output:
+
+*.log
+log/
+Step 9: Check the Git status
+git status
+
+This command shows the status of the repository. You will notice that error.log and the log folder are not displayed because they are being ignored by Git.
+
+Step 10: Add .gitignore to the staging area
+git add .gitignore
+
+This command stages the .gitignore file for commit.
+
+Step 11: Commit the changes
+git commit -m "Added gitignore"
+
+This command creates a commit with the message "Added gitignore".
+
+Step 12: Verify the repository status again
+git status
