@@ -1,0 +1,35 @@
+STEP:-1
+git --version
+
+STEP:-2 Git initialize 
+git init
+
+Step 3:  check/set  Username and email 
+git config --global --list (for check)
+
+  for set
+git config --global user.name "Nidhika "
+git config --global user.email "nidhikachaudhary07@gmail.com"
+
+Step 4: create file 
+echo "Welcome to the version control" > welcome.txt  
+
+Check :
+dir
+
+Step 5: check Git status 
+git status
+
+Step 6: Add file 
+git add welcome.txt
+  
+Step 7: Commit 
+git commit -m "Added welcome.txt"
+
+Step 8: Remote add 
+git remote add origin https://github.com/nidhika123/GitDemo.git
+
+Step 9: Push 
+git branch -M main
+git push -u origin main
+
